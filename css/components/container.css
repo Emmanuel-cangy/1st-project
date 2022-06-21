@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+}
+
+
+.container-profile{
+  width: 100vw;
+  height: 25em;
+  color: white;
+  background-color: rgb(6, 6, 46);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile{
+  padding-left: 5em;
+}
+
+.btn-container{
+  padding-right: 5em;
+}

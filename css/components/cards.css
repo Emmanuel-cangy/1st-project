@@ -1,0 +1,20 @@
+span{
+  position: relative;
+}
+.btn-line::after {
+  content: "";
+  background: currentColor;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: transform 500ms ease-in;
+  transform-origin: right;
+  transform: scaleX(0);
+}
+
+.btn-line:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}

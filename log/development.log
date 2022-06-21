@@ -1,0 +1,37 @@
+Started GET "/" for ::1 at 2022-06-21 12:47:59 +0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 455)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/emmanuelcan/code/Emmanuel-cangy/profile/public/packs
+[Webpacker] Hash: 50e3bf4ccc35a838f1be
+Version: webpack 4.46.0
+Time: 1029ms
+Built at: 06/21/2022 12:48:01 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-7d583ba8e3595cd67db2.js    125 KiB  application  [emitted] [immutable]  application
+js/application-7d583ba8e3595cd67db2.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-7d583ba8e3595cd67db2.js js/application-7d583ba8e3595cd67db2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2103.9ms | Allocations: 15321)
+Completed 200 OK in 2118ms (Views: 2109.8ms | ActiveRecord: 0.0ms | Allocations: 19951)
+
+
+Started GET "/" for ::1 at 2022-06-21 12:48:01 +0400
+Processing by HomesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3166)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3645)
+
+

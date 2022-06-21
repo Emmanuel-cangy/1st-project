@@ -1,0 +1,16 @@
+.btn{
+  color: black;
+  background-color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 25px;
+}
+
+.btn::after{
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: red ;
+  position: relative;
+  left: 0;
+  top: 0;
+}
