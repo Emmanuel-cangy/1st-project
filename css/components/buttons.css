@@ -1,16 +1,38 @@
-.btn{
-  color: black;
-  background-color: white;
-  padding: 0.2em 0.5em;
-  border-radius: 25px;
+.btn-line{
+  width: 9em;
+  font-size: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  padding-top: 8px;
+
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btn::after{
+.btn-line::after {
   content: "";
-  width: 100px;
-  height: 100px;
-  background-color: red ;
-  position: relative;
+  position: absolute;
+  background: rgba(255, 0, 0, 0.75);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  height: 100%;
+  width: 100%;
+  bottom: 0;
   left: 0;
-  top: 0;
+  transition: transform 150ms ease-in;
+  transform-origin: bottom;
+  transform: scaleY(0);
+
+  z-index: -1;
+}
+
+.btn-line:hover::after{
+  transform: scaleY(1);
+  transform-origin: top;
 }
