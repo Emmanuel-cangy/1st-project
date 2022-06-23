@@ -1,0 +1,17 @@
+.project-cards-containter{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.project-card{
+  background-color: #ddd;
+  max-width: 100px;
+  padding: 2.5rem 7rem;
+  border-radius: 8px;
+  font-size: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

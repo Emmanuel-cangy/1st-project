@@ -1,0 +1,15 @@
+.category-line-bottom {
+  color: white;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.category-line-bottom::after{
+  content: "";
+  position: absolute;
+  bottom: -3;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 2px;
+}

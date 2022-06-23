@@ -2,3 +2,14 @@
 @import url(buttons.css);
 @import url(container.css);
 @import url(header.css);
+@import url(project.css);
+@import url(images.css);
+@import url(text-features.css);
+body{
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  line-height: 1;
+  font-weight: 900;
+}
